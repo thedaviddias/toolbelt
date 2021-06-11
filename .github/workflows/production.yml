@@ -13,14 +13,11 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v2
 
-      - name: Caching Node Modules and NextJS cache
+      - name: Caching Node Modules
         uses: actions/cache@v2
         with:
-          path: |
-            **/node_modules
-            **/.cache
-            ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock') }}
+          path: "**/node_modules"
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
 
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
