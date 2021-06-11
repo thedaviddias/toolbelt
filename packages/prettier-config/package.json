@@ -7,14 +7,6 @@
     "prettier",
     "thedaviddias"
   ],
-  "homepage": "https://github.com/thedaviddias/toolbelt/packages/prettier-config#readme",
-  "bugs": {
-    "url": "https://github.com/thedaviddias/toolbelt/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thedaviddias/toolbelt.git"
-  },
   "license": "MIT",
   "author": "David Dias <hello@thedaviddias.dev> (https://thedaviddias.dev)",
   "main": "index.js",

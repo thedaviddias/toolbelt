@@ -1,6 +1,6 @@
 # @thedaviddias/prettier-config
 
-Prettier config shared by Orbit packages.
+Prettier config for my personal projects.
 
 ## Usage
 
