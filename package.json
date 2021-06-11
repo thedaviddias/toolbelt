@@ -14,7 +14,9 @@
   "scripts": {
     "bootstrap": "npx lerna bootstrap --use-workspaces",
     "publish-ci": "lerna publish from-package -y --no-verify-access",
-    "test": "lerna exec yarn test"
+    "test": "lerna exec yarn test",
+    "changeset": "changeset",
+    "version-packages": "changeset version"
   },
   "dependencies": {
     "@changesets/cli": "2.16.0"
