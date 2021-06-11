@@ -1,0 +1,25 @@
+{
+  "name": "toolbelt",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedaviddias/toolbelt.git"
+  },
+  "license": "MIT",
+  "author": "David Dias <hello@thedaviddias.dev> (https://thedaviddias.dev)",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "npx lerna bootstrap --use-workspaces",
+    "publish-ci": "lerna publish from-package -y --no-verify-access",
+    "test": "lerna exec yarn test"
+  },
+  "dependencies": {
+    "@changesets/cli": "2.16.0"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
