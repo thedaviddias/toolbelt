@@ -1,0 +1,27 @@
+{
+  "name": "@thedaviddias/prettier-config",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Prettier config for my personal projects",
+  "keywords": [
+    "prettier",
+    "thedaviddias"
+  ],
+  "homepage": "https://github.com/thedaviddias/toolbelt/packages/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/thedaviddias/toolbelt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedaviddias/toolbelt.git"
+  },
+  "license": "MIT",
+  "author": "David Dias <hello@thedaviddias.dev> (https://thedaviddias.dev)",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  }
+}
