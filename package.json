@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "bootstrap": "npx lerna bootstrap --use-workspaces",
-    "publish-ci": "lerna publish from-package -y --no-verify-access",
+    "publish-ci": "lerna publish",
     "test": "lerna exec yarn test"
   },
   "dependencies": {
